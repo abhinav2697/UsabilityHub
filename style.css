@@ -124,6 +124,7 @@ ul{
  .main-nav{
     margin-top:20px;
     justify-content: space-between;
+    position: relative;
     
  }
 
@@ -142,6 +143,10 @@ ul{
     gap:40px;
  }
 
+ .nav-taggle{
+   display:none;
+ }
+
  /*header section*/
  header{
     padding:50px var(--padding-inline-section);
@@ -152,7 +157,7 @@ ul{
     gap:50px;
  }
  .header-left{
-    max-width: 400vw;
+    max-width: 40vw;
  }
 
  .header-left h1{
@@ -165,7 +170,7 @@ ul{
 
 
  .header-right img{
-    width:600px;
+    width:100%;
  }
 
 
@@ -182,8 +187,9 @@ ul{
 }
  .logos{
     
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap:20px;
  }
 
  .logo{
@@ -203,6 +209,7 @@ ul{
 
  .features-header{
     text-align:center;
+    margin-bottom:40px;
 
  }
 
@@ -236,7 +243,9 @@ ul{
  .big-feature-container{
     gap:30px;
  }
-
+#second-big-feature{
+flex-direction: row-reverse;
+}
 
  .feature-img img{
     width:100%;
@@ -251,14 +260,19 @@ ul{
 
 
  /*examples section*/
+ .examples-section{
+   padding:80px;
+ }
  .examples-header{
   flex-direction: column;
   gap:20px;
+  text-align: center;
  }
 
  .examples-area{
    justify-content: space-between;
    margin-block: 30px;
+   flex-wrap:wrap;
  }
 
  .examples-card:hover{
@@ -268,7 +282,7 @@ ul{
 .examples-card{
    width:23%;
    position: relative;
-   min-height:300px;
+   height:300px;
    color:black;
    background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('./assets/asset\ 35.jpeg');
    background-size: cover;
@@ -302,8 +316,8 @@ background-size: cover;
    flex-direction: column;
    gap:30px;
    color:white;
-   
-   align-items: center;
+   text-align: center;
+ 
   
    
 }
@@ -346,4 +360,6 @@ gap: 20px;
 .subfooter-container{
    justify-content: center;
    gap:30px;
+   flex-wrap:wrap;
 }
+
