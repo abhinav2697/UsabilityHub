@@ -143,7 +143,7 @@ ul{
     gap:40px;
  }
 
- .nav-taggle{
+ .nav-toggle{
    display:none;
  }
 
@@ -261,7 +261,7 @@ flex-direction: row-reverse;
 
  /*examples section*/
  .examples-section{
-   padding:80px;
+   padding:80px var(--padding-inline-section);
  }
  .examples-header{
   flex-direction: column;
@@ -275,10 +275,7 @@ flex-direction: row-reverse;
    flex-wrap:wrap;
  }
 
- .examples-card:hover{
-   box-shadow:0 0 10px #888;
-
- }
+ 
 .examples-card{
    width:23%;
    position: relative;
@@ -290,6 +287,10 @@ flex-direction: row-reverse;
    transition: 0.2s ease-out;
 }
 
+.examples-card:hover{
+   box-shadow:0 0 10px #888;
+
+ }
 .examples-card:nth-child(3){
 background-image:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url('./assets/asset\ 36.jpeg');
 background-size: cover;
