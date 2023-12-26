@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+/*resets*/
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+
+/* nav bar */
+
+.main-nav{
+    margin-top:0px;
+    justify-content: space-between;
+    position: sticky;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 400px;
+    
+ }
+
+
+ .company-logo img{
+    width:200px;
+
+ }
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    margin:24px 0px;
+
+    
+    
+}
+
+.signup-container{
+    width:100%;
+    max-width: 390px;
+    margin:0 auto;
+    padding: 24px;
+    text-align: center;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: #ffffff;
+ 
+}
+label{
+    display: flex;
+    margin-bottom: 5px;
+    text-align: left ;
+}
+
+
+
+input{
+    padding: 10px;
+    display: flex;
+
+}
+
+
+.secondary-button{
+    /* width:100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #007BFF; */
+
+
+    border:0.5px solid var(--secondary-text-color);
+    border-radius: 6px;
+    font-weight: 700;
+    color:var(--primary-text-color) !important;
+    padding: 12px 150px;
+    transition: 0.2s ease-out;
+    background-color:#1290f7;
+    
+
+}
+
+.secondary-button:hover{
+    border-color:var(--accent-color);
+    color:white !important;
+}
+
+
+
+  input[type="text"],[type="email"],input[type="password"]{
+    
+    width:300px;
+    border-radius: 5px;
+    border-color: #1290f7;
+    transition: border-color 1s ease; 
+    background: transparent;
+  }
+
+
+  
+  .signup-section{
+    text-align: center;
+    margin-top: 5px;
+  }
+
+
+
+  /*subfooter*/
+
+ /* .subfooter-container{
+    justify-content: center;
+    gap:30px;
+    flex-wrap:wrap;
+ } */
+
+ .subfooter { 
+    background-color: #1290f7;
+    padding: var(--padding-inline-section);
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%;
+    z-index: 10;
+}
+
+.banner-text{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.a{
+    color: white;
+}
+ 
+
+
+
