@@ -210,6 +210,49 @@ input{
 }
 
 
+@media screen and (max-width:991px){
+  .main-nav{
+    overflow: initial;
+  }
+  .h2{
+    font-size: 1.5rem;
+  }
+  .h4{
+    font-size: 1.5rem;
+    gap:20px;
+  }
 
- 
+  .secondary-button {
+    width: 100%;
+}
+  .subfooter {
+    flex-direction: column;
+    gap: 0px;
+    text-align: right;
+    align-items: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+}
+
+/* @media screen and (max-width:479px){
+
+  :root {
+    --padding-inline-section: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+.subfooter{
+  padding: 1000px;
+}
+
+}
+  */
  

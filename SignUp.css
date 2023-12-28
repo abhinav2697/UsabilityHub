@@ -126,7 +126,7 @@ input{
     flex-wrap:wrap;
  } */
 
- .subfooter { 
+ .signup-subfooter { 
     background-color: #1290f7;
     padding: var(--padding-inline-section);
     position: absolute; 
