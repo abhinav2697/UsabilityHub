@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign_In</title>
         <link rel="stylesheet" href="sign_in.css">
-      
         <link rel="stylesheet" href="media-queries.css">
     </head>
 </head>
@@ -24,15 +23,16 @@
         <!--Login section-->
         <h2 >Sign in to continue </h2>
         <div class="login-container">
-        <form action="#">
+        <form action="/" id="loginform">
             <label>Email Address</label>
-            <input type="email" name="email" id="email" placeholder="Enter your registered email"required><br><br>
+            <input type="email" name="email" id="email" placeholder="Enter your registered email"><div class="error"></div><br><br>
             <label>Password</label>
-            <input type="password" name="password" id="password" placeholder="Enter your Password"required><br><br>
+            <input class="error" type="password" name="password" id="password" placeholder="Enter your Password"><br><br>
+          
            <label class="switch">
             <input type="checkbox" name="checkbox" id="checkbox" checked>
             <span class="slider round"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remember&nbsp;me</label><br><br>
-            <button type="submit" class="hover-link secondary-button">SignIn</button>
+            <button type="submit" class="hover-link secondary-button" >SignIn</button>
 
         </form>
         
@@ -52,6 +52,7 @@
         </div>
     </div>
     <script src="https://kit.fontawesome.com/dd10a09aba.js" crossorigin="anonymous"></script>
+    <script src="SignIn.js"></script>
     </body>    
     
     

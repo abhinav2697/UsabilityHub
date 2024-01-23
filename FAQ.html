@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>FAQ Accordian</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Faq.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/dd10a09aba.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="media-queries.css">
+    </head>
+    <body>
+      
+          <nav>
+            <div class="container main-nav flex">
+                <a href="index.html" class="company-logo">
+                    <img src="./assets/asset 1.png" alt="company logo">
+
+                </a>
+              
+                <div class="nav-links active" id="nav-links">
+                   
+                    <ul class="flex">
+                        <li><a href="#" class="hover-link">Products</a></li>
+                        <li><a href="#" class="hover-link">Customer</a></li>
+                        <li><a href="pricing.html" class="hover-link">Pricing</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <li><a href="#" class="hover-link">Resources</a>&nbsp;<i class="fa fa-caret-down"></i></button></li>  
+                                <ul class="dropdown-content">
+                                   <li><a href="Blog.html">Blog</a></li> 
+                                   <li><a href="#">Guides</a></li> 
+                                   <li><a href="#">Help</a></li> 
+                                   <li><a href="FAQ.html">FAQ</a></li> 
+                                  </ul>
+                        </div>
+                        <li><a href="SignIn.html" class="hover-link secondary-button">Sign in </a></li>
+                        <li><a href="SignUp.html" class="hover-link primary-button">Sign Up</a></li>
+                    </ul>
+
+                    
+    
+                </div>
+                <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            </div>
+        </nav>  
+
+
+
+        <!--FAQ Section-->
+        <h2>FAQ's</h2>
+        <div class="accordian">
+            <div class="question">
+                <h4>What if I do something wrong?</h4>
+                <i class="icon fa fa-caret-down"></i>
+            </div>
+            <div class="answer ">
+                The one thing to know about usability testing is that it's impossible for you to make a mistake - usability tests are one of the few tests you can’t fail! If you find a task difficult then that suggests that we need to make it easier for other users.
+                 So don't worry about making mistakes and just try to interact with the site or app however you would in your daily life.
+                 What if I do something wrong?
+            </div>
+        </div>
+
+
+
+        <div class="accordian">
+            <div class="question">
+                <h4>What is remote usability testing?</h4>
+                <i  class="icon active fa fa-caret-down"></i>
+            </div>
+            <div class="answer ">
+                Remote usability testing is any testing that happens when the participant and the researcher are in separate locations. Remote testing has increased in practice with the advancement of technological innovation and is facilitated by online tools. 
+                The sessions are normally carried out through a usability testing platform such as Maze that records people completing the test, collects data, and generates insights that you can put into action right away.
+            </div>
+        </div>
+
+
+        <div class="accordian">
+            <div class="question">
+                <h4>What is website usability testing?</h4>
+                <i class="icon active fa fa-caret-down"></i>
+            </div>
+            <div class="answer ">
+                Website usability testing is a way to assess how an audience is using and navigating through your web pages. 
+                You can test websites before launch using a Figma design or after launch by getting users to complete tasks on the live page.
+            </div>
+        </div>
+
+
+
+        <div class="accordian">
+            <div class="question">
+                <h4>Is the site or app I'm testing real?</h4>
+                <i class="icon  fa fa-caret-down "></i>
+            </div>
+            <div class="answer ">
+                Sometimes you'll be using a real, live website and sometimes you'll be using a prototype. 
+                If you’re using a prototype, it’s likely that some things will be unfinished and use placeholder content. 
+                The person taking you through the test will help you imagine the intent of the prototype if necessary.
+            </div>
+        </div>
+        <script src="Faq.js"></script>
+        
+    </body>
+</html>

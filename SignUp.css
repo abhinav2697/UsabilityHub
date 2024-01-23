@@ -151,6 +151,7 @@ input{
 
 
 @media screen and (max-width:991px){
+  
     .main-nav{
       overflow: initial;
     }
@@ -184,7 +185,7 @@ input{
     .signup-subfooter {
         background-color: #1290f7;
         padding: var(--padding-inline-section);
-        position: absolute; 
+        position: fixed; 
         bottom: 0; 
         left: 0; 
         width: 100%;
@@ -194,6 +195,7 @@ input{
   }
   
    @media screen and (max-width:479px){
+   
   
     :root {
       --padding-inline-section: 10px;
@@ -208,14 +210,38 @@ input{
       margin: 10px;
       
   }
+
+  .signup-container{
+    width:100%;
+    max-width: 390px;
+    margin:0 auto;
+    padding: 24px;
+    text-align: center;
+    border:1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.signup-section{
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+}
+  .secondary-button {
+    width: 100%;
+    justify-content: space-between;
+}
   .signup-subfooter {
     background-color: #1290f7;
     padding: var(--padding-inline-section);
-    position: absolute; 
+    position: fixed; 
     bottom: 0; 
     left: 0; 
     width: 100%;
     z-index: 10;
-}
+} 
   
   }
+
+  

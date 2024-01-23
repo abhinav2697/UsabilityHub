@@ -2,3 +2,7 @@ For Fonts:
 
 https://fontawesome.com/kits
 https://fonts.google.com/
+
+
+
+// https://instructivetech.com/login-form-validation-using-javascript/#gsc.tab=0

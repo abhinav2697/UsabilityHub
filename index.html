@@ -7,6 +7,7 @@
         <title>My Website</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="media-queries.css">
+        
     </head>
 
     <body>
@@ -24,17 +25,28 @@
                     <img src="./assets/asset 1.png" alt="company logo">
 
                 </a>
-                
-
+              
                 <div class="nav-links active" id="nav-links">
+                   
                     <ul class="flex">
                         <li><a href="#" class="hover-link">Products</a></li>
                         <li><a href="#" class="hover-link">Customer</a></li>
                         <li><a href="pricing.html" class="hover-link">Pricing</a></li>
-                        <li><a href="#" class="hover-link">Resources</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn">
+                                <li><a href="#" class="hover-link">Resources</a>&nbsp;<i class="fa fa-caret-down"></i></button></li>  
+                                <ul class="dropdown-content">
+                                   <li><a href="Blog.html">Blog</a></li> 
+                                   <li><a href="#">Guides</a></li> 
+                                   <li><a href="#">Help</a></li> 
+                                   <li><a href="FAQ.html">FAQ</a></li> 
+                                  </ul>
+                        </div>
                         <li><a href="SignIn.html" class="hover-link secondary-button">Sign in </a></li>
                         <li><a href="SignUp.html" class="hover-link primary-button">Sign Up</a></li>
                     </ul>
+
+                    
     
                 </div>
                 <a href="#" class="nav-toggle hover-link" id="nav-toggle">
